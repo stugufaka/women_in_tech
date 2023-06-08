@@ -236,14 +236,14 @@ export const services = [
 export const testimonials = [
   {
     authorImg: sealife,
-    authorText: `Our Explorers work in oceanography, marine/coastal ecology, climate science, ocean exploration technology, community-based conservation, and related fields.`,
+    authorText: `Many developers within the Women in Tech (WIT) are interested in solving problems regarding oceanography using technology, marine/coastal ecology, climate science, ocean exploration technology, community-based conservation, and related fields.`,
     authorName: "SDG GOAL 14",
     authorPosition: " Revealing and protecting underwater worlds",
   },
   {
     authorImg: wildlife,
     authorText:
-      "Our Explorers work in terrestrial geosciences, terrestrial/freshwater ecology, climate science, conservation technology, community-based conservation, and related field",
+      "Many developers within the Women in Tech (WIT) are interested in solving problems regarding  geosciences using technology, terrestrial/freshwater ecology, climate science, conservation technology, community-based conservation, and related field",
     authorName: "SDG GOAL 15",
     authorPosition: "Preserving and protecting land environments",
   },
@@ -251,14 +251,14 @@ export const testimonials = [
   {
     authorImg: climate,
     authorText:
-      "Our Explorers address the needs of developing countries to both adapt to climate change and invest in low-carbon development.",
+      "Many developers within the Women in Tech (WIT) are interested in solving problems regarding countries  adapting to climate change and invest in low-carbon development.",
     authorName: "SDG GOAL 13",
     authorPosition: "Protecting the Climate",
   },
   {
     authorImg: poverty,
     authorText:
-      "Our Explorers involves targeting the most vulnerable, increasing basic resources and services, and supporting communities affected by conflict and climate-related disasters.",
+      "Many developers within the Women in Tech (WIT) are interested in solving problems regarding  vulnerable, increasing basic resources and services, and supporting communities affected by conflict and climate-related disasters.",
     authorName: "SDG GOAL 1",
     authorPosition: "Solving the hardship Living of People",
   },

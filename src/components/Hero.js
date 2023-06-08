@@ -2,7 +2,7 @@ import React from "react";
 
 // import woman image
 import WomanImg from "../assets/img/banner-woman2.webp";
-import World3 from "../assets/img/world33.svg";
+import World3 from "../assets/img/wit.png";
 
 const Hero = () => {
   return (
@@ -17,16 +17,17 @@ const Hero = () => {
               WIT🌍
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              World 3 brings together explorers to solve social and
-              environmental problems of the SDG goals 1, 13, 14 , 15 and many
-              more
+              WIT (Women in Tech) 3 brings together developers from all around
+              the world to secure funding from investors for their careers and
+              address social and technological challenges.
             </p>
             <button className="btn btn-md bg-green-600  md:btn-lg transition-all">
-              Donate to an explorer
+              Fund a female developer
             </button>
           </div>
           <div className="hidden lg:flex flex-1 w-32  justify-end items-end ">
-            <img src={World3} alt="" width={400} height={400} />
+            {/* <span className="text-[10rem]">👩‍💻</span> */}
+            <img src={World3} alt="" width={600} height={400} />
           </div>
         </div>
       </div>
