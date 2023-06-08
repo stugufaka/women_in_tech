@@ -24,9 +24,9 @@
 
 <h2 align="center">🌐 Links 🌐</h2>
 <p align="center">
-    <a href="https://youtu.be/Omhoy1e5pNg" title="">🖥️ Video</a>
+    <a href="https://youtu.be/RuKCdKpNepk" title="">🖥️ Video</a>
     .
-    <a href="https://women_in_techs.netlify.app/" title="">🔗 Website</a>
+    <a href="https://main--singular-travesseiro-6502ec.netlify.app" title="">🔗 Website</a>
     ·
     <a href="https://github.com/stugufaka/women_in_tech" title="">📂 Repo</a>
     ·
