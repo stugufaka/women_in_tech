@@ -6,17 +6,17 @@
 <h1 align="center">🌟WIT(Women In Tech) 🌍 🌟</h1>
 
 <p align="center"> 
-<a href="https://github.com/stugufaka/woment_in_tech/blob/master/LICENSE" title="License">
-<img src="https://img.shields.io/github/license/stugufaka/woment_in_tech" alt="woment_in_tech"/>
+<a href="https://github.com/stugufaka/women_in_tech/blob/master/LICENSE" title="License">
+<img src="https://img.shields.io/github/license/stugufaka/women_in_tech" alt="women_in_tech"/>
 </a>
-<a href="https://github.com/stugufaka/woment_in_tech/fork" title="Forks">
-<img src="https://img.shields.io/github/forks/stugufaka/woment_in_tech" alt="woment_in_tech Forks"/>
+<a href="https://github.com/stugufaka/women_in_tech/fork" title="Forks">
+<img src="https://img.shields.io/github/forks/stugufaka/women_in_tech" alt="women_in_tech Forks"/>
 </a>
-<a href="https://github.com/stugufaka/woment_in_tech" title="Stars">
-<img src="https://img.shields.io/github/stars/stugufaka/woment_in_tech" alt="woment_in_tech Stars"/>
+<a href="https://github.com/stugufaka/women_in_tech" title="Stars">
+<img src="https://img.shields.io/github/stars/stugufaka/women_in_tech" alt="women_in_tech Stars"/>
 </a>
-<a href="https://img.shields.io/github/stars/stugufaka/woment_in_tech/issues" title="Issues">
-<img src="  https://img.shields.io/github/issues/stugufaka/woment_in_tech" alt="woment_in_tech Issues"/>
+<a href="https://img.shields.io/github/stars/stugufaka/women_in_tech/issues" title="Issues">
+<img src="  https://img.shields.io/github/issues/stugufaka/women_in_tech" alt="women_in_tech Issues"/>
 </a>
 
 </a>
@@ -26,11 +26,11 @@
 <p align="center">
     <a href="https://youtu.be/Omhoy1e5pNg" title="">🖥️ Video</a>
     .
-    <a href="https://woment_in_techs.netlify.app/" title="">🔗 Website</a>
+    <a href="https://women_in_techs.netlify.app/" title="">🔗 Website</a>
     ·
-    <a href="https://github.com/stugufaka/woment_in_tech" title="">📂 Repo</a>
+    <a href="https://github.com/stugufaka/women_in_tech" title="">📂 Repo</a>
     ·
-    <a href="https://github.com/stugufaka/woment_in_tech" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
+    <a href="https://github.com/stugufaka/women_in_tech" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
 </p>
 
 ## 💪 Motivation
@@ -72,13 +72,13 @@ Follow the steps below to get started with web3.
 1. Clone the repository
 
 ```Bash
-git clone https://github.com/stugufaka/woment_in_tech
+git clone https://github.com/stugufaka/women_in_tech
 ```
 
 2. Change the working directory
 
 ```Bash
-cd woment_in_tech
+cd women_in_tech
 ```
 
 3. Start the local Hardhat node

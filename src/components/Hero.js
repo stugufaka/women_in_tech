@@ -17,9 +17,9 @@ const Hero = () => {
               WIT🌍
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              WIT (Women in Tech) 3 brings together developers from all around
-              the world to secure funding from investors for their careers and
-              address social and technological challenges.
+              WIT (Women in Tech) brings together women developers from all
+              around the world to secure funding from investors for their
+              careers and address social and technological challenges.
             </p>
             <button className="btn btn-md bg-[#F61480]  md:btn-lg transition-all">
               Fund a female developer
