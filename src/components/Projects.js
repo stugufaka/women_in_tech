@@ -50,7 +50,7 @@ const Projects = () => {
     <div>
       {/* projects nav */}
       <nav className="mb-12 max-w-xl mx-auto">
-        <ul className="flex flex-col md:flex-row justify-evenly items-center text-white">
+        <ul className="flex flex-col md:flex-row justify-evenly items-center text-[#F61480]">
           {projectsNav.map((item, index) => {
             return (
               <li

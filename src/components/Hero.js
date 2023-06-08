@@ -21,7 +21,7 @@ const Hero = () => {
               the world to secure funding from investors for their careers and
               address social and technological challenges.
             </p>
-            <button className="btn btn-md bg-green-600  md:btn-lg transition-all">
+            <button className="btn btn-md bg-[#F61480]  md:btn-lg transition-all">
               Fund a female developer
             </button>
           </div>

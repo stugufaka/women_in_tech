@@ -185,7 +185,7 @@ const Explorer = () => {
                   <div className="mb-8">
                     <img className="rounded-2xl" src={project?.cover} alt="" />
                   </div>
-                  <p className="capitalize text-accent text-sm mb-3">
+                  <p className="capitalize text-[#F61480] text-sm mb-3">
                     {project?.title}{" "}
                   </p>
                   <h3 className="text-2xl font-semibold capitalize mb-3">

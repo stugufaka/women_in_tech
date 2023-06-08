@@ -31,7 +31,7 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
-            Total Amount of Money we have raised so far{" "}
+            Total Amount of Money Donated so far{" "}
           </h2>
           <p className="subtitle">
             For each of the SDG Goals, below are the total amount we have
@@ -43,7 +43,7 @@ const Services = () => {
             const { icon, name, description } = service;
             return (
               <div className="bg-secondary p-6 rounded-2xl" key={index}>
-                <div className="text-green-400 rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]">
+                <div className="text-[#F61480] rounded-sm w-12 h-12 flex justify-center items-center mb-24 text-[28px]">
                   {icon}
                 </div>
                 <h4 className="text-4xl font-medium mb-2">

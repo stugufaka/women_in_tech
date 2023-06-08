@@ -4,7 +4,7 @@ import React from "react";
 import { social } from "../data";
 
 // import logo
-import Logo2 from "../assets/img/logo2.svg";
+import Logo2 from "../assets/img/wit.svg";
 
 const Footer = () => {
   return (

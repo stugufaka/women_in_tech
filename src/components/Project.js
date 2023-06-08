@@ -12,7 +12,7 @@ const Project = ({ item }) => {
         <div className="mb-8">
           <img className="rounded-2xl" src={item?.cover} alt="" />
         </div>
-        <p className="capitalize text-accent text-sm mb-3">
+        <p className="capitalize text-[#F61480] text-sm mb-3">
           {truncateString(item?.sdgCategory, 60)}
         </p>
         <h3 className="text-white text-2xl font-semibold capitalize mb-3">

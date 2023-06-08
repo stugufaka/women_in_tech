@@ -62,7 +62,7 @@ const Explorers = () => {
                     />
                   </div>
                   <Link to={`/explorer/${explorer?.id?.toString()}`}>
-                    <p className="capitalize text-accent text-sm mb-1">
+                    <p className="capitalize text-[#F61480] text-sm mb-1">
                       {explorer?.name}{" "}
                     </p>
                   </Link>

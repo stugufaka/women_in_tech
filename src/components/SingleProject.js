@@ -142,7 +142,7 @@ const SingleProject = () => {
                 <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                   {project?.title}
                 </h2>
-                <p className="mb-2 text-accent">{project?.sdgCategory}</p>
+                <p className="mb-2 text-[#F61480]">{project?.sdgCategory}</p>
                 <p className="mb-2">@{project?.explorerName}</p>
                 <p className="text-xl font-Montserrat font-bold">
                   {parseFloat(

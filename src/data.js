@@ -210,25 +210,25 @@ export const services = [
     id: 1,
     icon: <FiDroplet />,
     name: "50 ETH",
-    description: "Life Below Water",
+    description: "For developers interested in Life Below Water",
   },
   {
     id: 2,
     icon: <GiPineTree />,
     name: "20 ETH",
-    description: "Life on Land",
+    description: "For developers interested in Life on Land",
   },
   {
     id: 3,
     icon: <FiGlobe />,
     name: "100ETH",
-    description: "Climate Action",
+    description: "For developers interested Climate Action",
   },
   {
     id: 4,
     icon: <FiUsers />,
     name: "400ETH",
-    description: "Poverty",
+    description: " For developers interested Poverty",
   },
 ];
 

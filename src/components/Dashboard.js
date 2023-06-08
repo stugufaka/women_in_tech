@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import AlbumCover1 from "../assets/img/nature.jpeg";
+import AlbumCover1 from "../assets/img/cover.jpg";
 import ProfileImg from "../assets/img/profile.jpeg";
 import { Badge } from "@nextui-org/react";
 import { Link } from "react-router-dom";
@@ -187,7 +187,7 @@ const Profile = () => {
                   <div className="mb-8">
                     <img className="rounded-2xl" src={project?.cover} alt="" />
                   </div>
-                  <p className="capitalize text-accent text-sm mb-3">
+                  <p className="capitalize text-[#F61480] text-sm mb-3">
                     {project?.title}{" "}
                   </p>
                   <h3 className="text-2xl font-semibold capitalize mb-3">

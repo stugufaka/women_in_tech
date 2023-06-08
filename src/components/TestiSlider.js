@@ -41,7 +41,7 @@ const TestiSlider = () => {
                     {authorText}
                   </h5>
                   <div>
-                    <p className="text-lg text-accent">{authorName}</p>
+                    <p className="text-lg text-[#F61480]">{authorName}</p>
                     <p>{authorPosition}</p>
                   </div>
                 </div>
