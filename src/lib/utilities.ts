@@ -1,5 +1,6 @@
-import supportedChains from './chains';
-import { IChainData } from './types';
+import supportedChains from "./chains";
+import { IChainData } from "./types";
+import { BigNumber, ethers } from "ethers";
 
 export function getChainData(chainId?: number): IChainData {
   if (!chainId) {
@@ -10,17 +11,17 @@ export function getChainData(chainId?: number): IChainData {
   )[0];
 
   if (!chainData) {
-    throw new Error('ChainId missing or not supported');
+    throw new Error("ChainId missing or not supported");
   }
 
-  const API_KEY = '460f40a260564ac4a4f4b3fffb032dad';
+  const API_KEY = "460f40a260564ac4a4f4b3fffb032dad";
 
   if (
-    chainData.rpc_url.includes('infura.io') &&
-    chainData.rpc_url.includes('%API_KEY%') &&
+    chainData.rpc_url.includes("infura.io") &&
+    chainData.rpc_url.includes("%API_KEY%") &&
     API_KEY
   ) {
-    const rpcUrl = chainData.rpc_url.replace('%API_KEY%', API_KEY);
+    const rpcUrl = chainData.rpc_url.replace("%API_KEY%", API_KEY);
 
     return {
       ...chainData,
@@ -31,17 +32,17 @@ export function getChainData(chainId?: number): IChainData {
   return chainData;
 }
 
-export function ellipseAddress(address = '', width = 6): string {
+export function ellipseAddress(address = "", width = 6): string {
   if (!address) {
-    return '';
+    return "";
   }
   return `${address.slice(0, width)}...${address.slice(-width)}`;
 }
 
-export function numDaysBetween(d1: any, d2:any) {
+export function numDaysBetween(d1: any, d2: any) {
   var diff = Math.abs(d1 - d2.getTime() / 1000);
-  console.log('d1', d1);
-  console.log('d2', d2);
+  console.log("d1", d1);
+  console.log("d2", d2);
 
   if (diff <= 0) {
     return 0;
@@ -50,21 +51,21 @@ export function numDaysBetween(d1: any, d2:any) {
   }
 }
 
-export function timeConverter(UNIX_timestamp:any) {
+export function timeConverter(UNIX_timestamp: any) {
   var a = new Date(UNIX_timestamp * 1000);
   var months = [
-    'Jan',
-    'Feb',
-    'Mar',
-    'Apr',
-    'May',
-    'Jun',
-    'Jul',
-    'Aug',
-    'Sep',
-    'Oct',
-    'Nov',
-    'Dec',
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
   ];
   var year = a.getFullYear();
   var month = months[a.getMonth()];
@@ -73,7 +74,7 @@ export function timeConverter(UNIX_timestamp:any) {
   var min = a.getMinutes();
   var sec = a.getSeconds();
   var time =
-    date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec;
+    date + " " + month + " " + year + " " + hour + ":" + min + ":" + sec;
   return time;
 }
 
@@ -81,14 +82,34 @@ export function greeter() {
   var d = new Date();
   var hour = d.getHours();
   if (hour >= 6 && hour < 12) {
-    return 'Good Morning';
+    return "Good Morning";
   } else if (hour > +12 && hour < 18) {
-    return 'Good Afternoon';
+    return "Good Afternoon";
   } else {
-    return 'Good Evening';
+    return "Good Evening";
   }
 }
 
-export function truncateString(str:any, length:any) {
-  return str.length > length ? str.substring(0, length - 3) + '...' : str;
+export function truncateString(str: any, length: any) {
+  return str.length > length ? str.substring(0, length - 3) + "..." : str;
+}
+
+export async function convertToUSD(amountInWei) {
+  // Get the latest ETH/USD price from a price feed API
+  const response = await fetch(
+    "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd"
+  );
+  const data = await response.json();
+  const ethPriceUSD = data.ethereum.usd;
+
+  // Convert the amount in wei to ether
+  const amountInEth = ethers.utils.formatEther(amountInWei);
+
+  // Convert the amount in ether to USD
+  const amountInUSD = parseFloat(amountInEth) * ethPriceUSD;
+
+  // Round the USD amount to 2 decimal places
+  const roundedAmountInUSD = Math.round(amountInUSD * 100) / 100;
+
+  return roundedAmountInUSD;
 }

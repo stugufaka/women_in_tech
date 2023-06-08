@@ -4,7 +4,7 @@ import FileViewer from "react-file-viewer";
 import { Progress } from "@nextui-org/react";
 import { AuthContext } from "../utils/AuthProvider";
 import toast, { Toaster } from "react-hot-toast";
-import Logo2 from "../assets/img/logo2.svg";
+import Logo2 from "../assets/img/wit.svg";
 
 const EditProfile = () => {
   const [bio, setbio] = useState("");

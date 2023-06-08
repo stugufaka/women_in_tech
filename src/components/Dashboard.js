@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import AlbumCover1 from "../assets/img/cover.jpg";
+import AlbumCover1 from "../assets/img/cover1.jpg";
 import ProfileImg from "../assets/img/profile.jpeg";
 import { Badge } from "@nextui-org/react";
 import { Link } from "react-router-dom";
